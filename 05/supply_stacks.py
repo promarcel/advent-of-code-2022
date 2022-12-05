@@ -1,5 +1,6 @@
 from rich import print
 
+
 def get_input():
     with open("input.txt") as input_txt:
         input_stacks, input_instructions = input_txt.read().split("\n\n")
