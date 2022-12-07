@@ -40,6 +40,7 @@ def process(input):
                 break
     return space
 
+
 def part_1(input):
     total = 0
     for _, space in process(input).items():
